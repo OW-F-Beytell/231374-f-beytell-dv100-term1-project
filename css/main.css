@@ -65,6 +65,9 @@ nav{
 .search-bar p{
     float: left;
 }
+.search-symbol{
+    float: right;
+}
 
 .header-content{
     height: 230px;
@@ -108,4 +111,56 @@ nav{
     border: solid 2.3px black;
     border-radius: 50%;
     float: left;
+}
+
+.featured-section{
+    height: 500px;
+    width: 1196px;
+    margin: 0 auto;
+    margin-top: -60px;
+    margin-bottom: 80px;
+}
+.featured-video{
+    height: 330px;
+    width: 586px;
+    margin-left: -496px;
+    background-color: gray;
+    float: left;
+}
+.featured-info{
+    height: 500px;
+    width: 700px;
+    background-color: rgb(235, 233, 233);
+    float: right;
+}
+.featured-info h4{
+    margin-left: 120px;
+    margin-top: 25px;
+}
+.featured-info h2{
+    margin-top: 10px;
+    margin-left: 120px;
+}
+.featured-info .featured-info-text{
+    height: 275px;
+    margin-top: 35px;
+    margin-left: 120px;
+    margin-right: 60px;
+    font-size: large;
+}
+.featured-nav{
+    height: 50px;
+    margin-right: 10px;
+}
+.featured-nav-button{
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    margin-right: 20px;
+    border: solid 3px black;
+    border-radius: 50%;
+    border-color: black;
+    font-size: xx-large;
+    font-weight: bold;
+    float: right;
 }
