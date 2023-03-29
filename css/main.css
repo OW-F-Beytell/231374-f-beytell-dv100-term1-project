@@ -118,7 +118,6 @@ nav{
     width: 1196px;
     margin: 0 auto;
     margin-top: -60px;
-    margin-bottom: 80px;
 }
 .featured-video{
     height: 330px;
@@ -163,4 +162,66 @@ nav{
     font-size: xx-large;
     font-weight: bold;
     float: right;
+}
+
+.recent-releases{
+    width: 1198px;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+.recent-releases h4{
+    margin-top: 10px;
+}
+.popular-albums{
+    width: 1198px;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+.popular-albums h4{
+    margin-top: 10px;
+}
+.album-artwork{
+    height: 277px;
+    width: 277px;
+    margin-top: 30px;
+    background-color: lightgray;
+}
+.album-actions{
+    height: 100%;
+    width: 100%;
+    padding-top: 68px;
+}
+.album-play-button{
+    height: 70px;
+    width: 70px;
+    background-color: rgb(235, 233, 233);
+    border-radius: 50%;
+    margin: 0 auto;
+}
+.album-info{
+    height: 70px;
+    width: 100%;
+    margin-top: 68px;
+    background-color: #2b2b2b;
+    color: rgb(235, 233, 233);
+}
+.track-info{
+    height: 70px;
+    padding-top: 12px;
+    float: left;
+}
+.track-info h6{
+    margin-left: 15px;
+}
+.track-info h5{
+    margin-left: 15px;
+}
+.album-info .album-fav-button{
+    height: 40px;
+    width: 40px;
+    margin-top: 15px;
+    margin-right: 10px;
+    float: right;
+    border: solid 3px rgb(235, 233, 233);;
+    border-radius: 50%;
 }
