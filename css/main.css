@@ -15,6 +15,9 @@ nav{
     padding-left: 50px;
     padding-right: 50px;
 }
+nav a{
+    color: #2b2b2b;
+}
 .stream-logo{
     height: 90px;
     float: left;
@@ -51,6 +54,7 @@ nav{
     padding-left: 40px;
     float: left;
     height: 100%;
+    color: #2b2b2b;
 }
 .search-bar{
     height: 50px;
