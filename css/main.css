@@ -208,13 +208,8 @@ nav{
 .track-info{
     height: 70px;
     padding-top: 12px;
+    padding-left: 15px;
     float: left;
-}
-.track-info h6{
-    margin-left: 15px;
-}
-.track-info h5{
-    margin-left: 15px;
 }
 .album-info .album-fav-button{
     height: 40px;
@@ -224,4 +219,30 @@ nav{
     float: right;
     border: solid 3px rgb(235, 233, 233);;
     border-radius: 50%;
+}
+.copyright{
+    margin: 0 auto;
+}
+footer{
+    width: 1196px;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+footer .container-fluid{
+    padding: 0;
+    font-weight: bold;
+}
+footer .container-fluid .row .col-4 .copyright{
+    text-align: center;
+}
+footer ul{
+    list-style: none;
+}
+.social-icon{
+    height: 50px;
+    width: 50px;
+    margin-left: 20px;
+    border: solid 3px black;
+    border-radius: 50%;
+    float: right;
 }
