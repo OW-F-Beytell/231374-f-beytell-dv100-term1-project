@@ -4,6 +4,14 @@ html, body{
     margin: 0 !important;
     margin: 0 auto;
 }
+.container-fluid{
+    padding: 0;
+    margin: 0;
+}
+.row{
+    padding: 0;
+    margin: 0;
+}
 header{
     width: 100%;
     height: 900px;
@@ -233,7 +241,6 @@ footer{
     margin-top: 60px;
 }
 footer .container-fluid{
-    padding: 0;
     font-weight: bold;
 }
 footer .container-fluid .row .col-4 .copyright{
