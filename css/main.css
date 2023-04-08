@@ -6,16 +6,24 @@ html, body{
 }
 .container-fluid{
     padding: 0;
-    margin: 0;
+}
+footer .container-fluid{
+    padding: 0;
+    margin: 0 auto;
+    margin-left: 0px;
+    margin-right: 0px;
 }
 .row{
     padding: 0;
     margin: 0;
 }
-header{
+header.home-page{
     width: 100%;
     height: 900px;
     background-color: lightgray;
+}
+header.playlist-page{
+
 }
 nav{
     height: 90px;
@@ -56,7 +64,7 @@ nav a{
 .nav-control ul{
     list-style: none;
     height: 100%;
-    padding-top: 13px
+    padding-top: 9px
 }
 .nav-control ul li{
     padding-left: 40px;
@@ -177,7 +185,7 @@ nav a{
 }
 
 .recent-releases{
-    width: 1198px;
+    width: 1196px;
     margin: 0 auto;
     margin-top: 80px;
 }
@@ -232,9 +240,65 @@ nav a{
     border: solid 3px rgb(235, 233, 233);;
     border-radius: 50%;
 }
-.copyright{
-    margin: 0 auto;
+
+.page2-content{
+    width: 100%;
+    margin-top: 175px;
 }
+.embedded-map{
+    height: 200px;
+    width: 100%;
+    background-color: gray;
+}
+.get-in-touch-section{
+    background-color: darkgray;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+}
+form{
+}
+.input-el{
+    margin-bottom: 25px;
+    padding-left: 15px;
+    background-color: rgb(73, 71, 71);
+    color: white;
+    border: none;
+    border-radius: 25px;
+}
+input{
+    padding-top: -50px;
+}
+input .input-el{
+    width: 100%;
+    height: 50px;
+}
+select .input-el{
+    width: 100%;
+    height: 50px;
+}
+textarea .input-el{
+    width: 100%;
+    height: 100px;
+}
+::placeholder{
+    color: white;
+}
+
+
+.playlist-cover{
+    height: 470px;
+    width: 470px;
+    background-image: url("../assets/albums/10-Zeitgeist-Shepard-Fairey_resize.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.playlist-play{
+    background-image: url("../assets/icons/media/black_play_media_icon.svg");
+    width: 70px;
+    height: 70px;
+}
+
 footer{
     width: 1196px;
     margin: 0 auto;
@@ -245,6 +309,9 @@ footer .container-fluid{
 }
 footer .container-fluid .row .col-4 .copyright{
     text-align: center;
+}
+.copyright{
+    margin: 0 auto;
 }
 footer ul{
     list-style: none;
