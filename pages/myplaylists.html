@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="../css/main.css">
 </head>
 <body>
-    <header class="playlist-page">
+    <header>
         <nav>
             <a href="../index.html"><div class="stream-logo"></div></a>
             <div class="nav-control">
@@ -22,7 +22,7 @@
                     <li>Recent Releases</li>
                     <li>Popular Albums</li>
                     <a href="../pages/about.html"><li>About Label</li></a>
-                    <a href="#"><li>My Playlists</li></a>
+                    <a  href="#"><li class="active">My Playlists</li></a>
                 </ul>
             </div>
             <div class="search-bar">
@@ -32,79 +32,147 @@
         </nav>
     </header>
 
-    <div class="container">
-        <div class="row">
-            <!--Big Playlist column-->
-            <div class="col-6">
-                <div class="playlist-display">
-                    <h4>My Playlists</h4>
-                    <div class="playlist-cover">
-                        <h1>FAVOURITES MIX</h1>
-                        <div class="playlist-play"></div>
+    <div class="playlist-page-content">
+        <div class="container-fluid">
+            <div class="row">
+                <!--Big Playlist column-->
+                <div class="col-6">
+                    <div class="playlist-display">
+                        <h4>My Playlists</h4>
+                        <div class="playlist-cover">
+                            <h1>FAVOURITES</h1>
+                            <h2>MIX</h2>
+                            <div class="playlist-play"></div>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <!--Tracks column-->
-            <div class="col-6">
-                <div class="row">
-                    <ul>
-                        <li class="active">My Favourites</li>
-                        <li>Classic Mix</li>
-                        <li>Suggestions Mix</li>
-                    </ul>
-                </div>
-                <div class="tracklist">
-                    <div class="row">
+                <!--Tracks column-->
+                <div class="col-6">
+                    <div class="tabs">
+                        <div class="row">
+                            <ul>
+                                <li class="active">My Favourites</li>
+                                <li>Classic Mix</li>
+                                <li>Suggestions Mix</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="tracklist">
                         <div class="tracks-heading">
-                            <div class="col-1">#</div>
-                            <div class="col-5">Song Title</div>
-                            <div class="col-3">Album</div>
-                            <div class="col-2">Duration</div>
-                            <div class="col-1"></div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="track">
-                            <div class="col-1">1</div>
-                            <div class="col-5">
-                                <h6>SONG TITLE</h6>
-                                Artist Name
+                            <div class="row tracklist-bold">
+                                <div class="col-1">#</div>
+                                <div class="col-5">Song Title</div>
+                                <div class="col-3">Album</div>
+                                <div class="col-2">Duration</div>
+                                <div class="col-1"></div>
                             </div>
-                            <div class="col-3">Album Name</div>
-                            <div class="col-2">2:54</div>
-                            <div class="col-1">...</div>
                         </div>
-                        <div class="track-underline"></div>
+                        <div class="track">
+                            <div class="row">
+                                <div class="col-1"><div class="tracklist-number">1</div></div>
+                                <div class="col-5">
+                                    <strong>SONG TITLE</strong>
+                                    <br>Artist Name
+                                </div>
+                                <div class="col-3"><div class="tracklist-album">Album Name</div></div>
+                                <div class="col-2"><div class="tracklist-time">2:54</div></div>
+                                <div class="col-1"><div class="options-icon"></div></div>
+                            </div>
+                            <div class="track-underline"></div>
+                        </div>
+                        <div class="track">
+                            <div class="row">
+                                <div class="col-1"><div class="tracklist-number">1</div></div>
+                                <div class="col-5">
+                                    <strong>SONG TITLE</strong>
+                                    <br>Artist Name
+                                </div>
+                                <div class="col-3"><div class="tracklist-album">Album Name</div></div>
+                                <div class="col-2"><div class="tracklist-time">2:54</div></div>
+                                <div class="col-1"><div class="options-icon"></div></div>
+                            </div>
+                            <div class="track-underline"></div>
+                        </div>
+                        <div class="track">
+                            <div class="row">
+                                <div class="col-1"><div class="tracklist-number">1</div></div>
+                                <div class="col-5">
+                                    <strong>SONG TITLE</strong>
+                                    <br>Artist Name
+                                </div>
+                                <div class="col-3"><div class="tracklist-album">Album Name</div></div>
+                                <div class="col-2"><div class="tracklist-time">2:54</div></div>
+                                <div class="col-1"><div class="options-icon"></div></div>
+                            </div>
+                            <div class="track-underline"></div>
+                        </div>
+                        <div class="track">
+                            <div class="row">
+                                <div class="col-1"><div class="tracklist-number">1</div></div>
+                                <div class="col-5">
+                                    <strong>SONG TITLE</strong>
+                                    <br>Artist Name
+                                </div>
+                                <div class="col-3"><div class="tracklist-album">Album Name</div></div>
+                                <div class="col-2"><div class="tracklist-time">2:54</div></div>
+                                <div class="col-1"><div class="options-icon"></div></div>
+                            </div>
+                            <div class="track-underline"></div>
+                        </div>
+                        <div class="track">
+                            <div class="row">
+                                <div class="col-1"><div class="tracklist-number">1</div></div>
+                                <div class="col-5">
+                                    <strong>SONG TITLE</strong>
+                                    <br>Artist Name
+                                </div>
+                                <div class="col-3"><div class="tracklist-album">Album Name</div></div>
+                                <div class="col-2"><div class="tracklist-time">2:54</div></div>
+                                <div class="col-1"><div class="options-icon"></div></div>
+                            </div>
+                            <div class="track-underline"></div>
+                        </div>
+                        <div class="track">
+                            <div class="row">
+                                <div class="col-1"><div class="tracklist-number">1</div></div>
+                                <div class="col-5">
+                                    <strong>SONG TITLE</strong>
+                                    <br>Artist Name
+                                </div>
+                                <div class="col-3"><div class="tracklist-album">Album Name</div></div>
+                                <div class="col-2"><div class="tracklist-time">2:54</div></div>
+                                <div class="col-1"><div class="options-icon"></div></div>
+                            </div>
+                            <div class="track-underline"></div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="row">
-            <div class="col-12">
-                <div class="playbar">
-                    <div class="timeline">
-                        <div class="inner-timeline"></div>
-                        <div class="marker"></div>
+            <div class="row">
+                <div class="timeline">
+                    <div class="inner-timeline"></div>
+                    <div class="marker"></div>
+                </div>
+            </div>
+            <div class="row player">
+                <div class="col-4 tiny">
+                    <div class="tiny-album"></div>
+                    <div class="tiny-track">
+                        <h4>SONG TITLE</h4>
+                        Artist
                     </div>
                 </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-4">
-                <div class="tiny-album"></div>
-                <div class="tiny-track">
-                    <h4>SONG TITLE</h4>
-                    Artist
+                <div class="col-4 playlist-control">
+                    <div class="playlist-control-buttons">
+                        <div class="player-skip-back"></div>
+                        <div class="player-play-pause"></div>
+                        <div class="player-skip-forward"></div>
+                    </div>
                 </div>
-            </div>
-            <div class="col-4">
-                <div class="player-skip-back"><<</div>
-                <div class="player-playpause">||</div>
-                <div class="player-skip-forward">>></div>
-            </div>
-            <div class="col-4">
-                <div class="player-time">01:12</div>
-                <div class="player-options"></div>
+                <div class="col-4 time-and-options">
+                    <div class="player-options"></div>
+                    <div class="player-time">01:12</div>
+                </div>
             </div>
         </div>
     </div>
