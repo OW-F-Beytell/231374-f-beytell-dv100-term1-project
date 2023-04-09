@@ -12,6 +12,7 @@ footer .container-fluid{
     margin: 0 auto;
     margin-left: 0px;
     margin-right: 0px;
+    font-weight: bold;
 }
 .row{
     padding: 0;
@@ -35,24 +36,14 @@ nav a{
     color: #2b2b2b;
 }
 .stream-logo{
-    height: 90px;
+    height: 50px;
+    width: 163px;
+    margin-top: 40px;
     float: left;
     padding-top: 35px;
-}
-.stream-symbol{
-    height: 50px;
-    width: 50px;
-    float: left;
-    border-radius: 50%;
-    background-color: #2b2b2b;
-}
-.stream-logo h5{
-    height: 50px;
-    margin-bottom: 0px;
-    margin-left: 5px;
-    padding-top: 13px;
-    float: right;
-    font-weight: bold;
+    background-image: url("../assets/icons/logo/stream_logo_black.png");
+    background-position: center;
+    background-size: cover;
 }
 .nav-control{
     width: 590px;
@@ -64,7 +55,7 @@ nav a{
 .nav-control ul{
     list-style: none;
     height: 100%;
-    padding-top: 9px
+    padding-top: 13px;
 }
 .nav-control ul li{
     padding-left: 40px;
@@ -86,7 +77,14 @@ nav a{
     float: left;
 }
 .search-symbol{
+    height: 18px;
+    width: 18px;
+    background-image: url("../assets/icons/other/search_icon.svg");
+    background-position: center;
+    background-size: cover;
     float: right;
+    margin-top: 4px;
+    margin-right: 20px;
 }
 
 .header-content{
@@ -120,7 +118,7 @@ nav a{
     margin-right: 40px;
     padding-top: 20px;
     color: black;
-    border: solid 2.3px black;
+    border: solid 4px black;
     border-radius: 35px;
     text-align: center;
     float: left;
@@ -128,7 +126,9 @@ nav a{
 .header-fav-button{
     height: 70px;
     width: 70px;
-    border: solid 2.3px black;
+    background-image: url("../assets/icons/other/heart_icon.svg");
+    background-position: center;
+    background-size: cover;
     border-radius: 50%;
     float: left;
 }
@@ -174,13 +174,7 @@ nav a{
 .featured-nav-button{
     width: 50px;
     height: 50px;
-    text-align: center;
     margin-right: 20px;
-    border: solid 3px black;
-    border-radius: 50%;
-    border-color: black;
-    font-size: xx-large;
-    font-weight: bold;
     float: right;
 }
 
@@ -215,6 +209,9 @@ nav a{
     height: 70px;
     width: 70px;
     background-color: rgb(235, 233, 233);
+    background-image: url("../assets/icons/media/white_play_media_icon.svg");
+    background-position: center;
+    background-size: cover;
     border-radius: 50%;
     margin: 0 auto;
 }
@@ -237,8 +234,8 @@ nav a{
     margin-top: 15px;
     margin-right: 10px;
     float: right;
-    border: solid 3px rgb(235, 233, 233);;
     border-radius: 50%;
+    background-image: url("../assets/icons/other/white_heart_icon.svg");
 }
 
 .page2-content{
@@ -304,14 +301,11 @@ footer{
     margin: 0 auto;
     margin-top: 60px;
 }
-footer .container-fluid{
-    font-weight: bold;
+.trademark{
+    margin-top: 12px;
 }
-footer .container-fluid .row .col-4 .copyright{
-    text-align: center;
-}
-.copyright{
-    margin: 0 auto;
+footer .container-fluid .row .col-4{
+    margin-bottom: 50px;
 }
 footer ul{
     list-style: none;
@@ -320,7 +314,6 @@ footer ul{
     height: 50px;
     width: 50px;
     margin-left: 20px;
-    border: solid 3px black;
     border-radius: 50%;
     float: right;
 }
