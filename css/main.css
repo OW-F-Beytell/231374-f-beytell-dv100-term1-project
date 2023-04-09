@@ -7,13 +7,6 @@ html, body{
 .container-fluid{
     padding: 0;
 }
-footer .container-fluid{
-    padding: 0;
-    margin: 0 auto;
-    margin-left: 0px;
-    margin-right: 0px;
-    font-weight: bold;
-}
 .row{
     padding: 0;
     margin: 0;
@@ -204,6 +197,7 @@ nav a{
     height: 100%;
     width: 100%;
     padding-top: 68px;
+    background-color: gray;
 }
 .album-play-button{
     height: 70px;
@@ -238,9 +232,43 @@ nav a{
     background-image: url("../assets/icons/other/white_heart_icon.svg");
 }
 
+.aboutus-container{
+    margin-left: 122px;
+    margin-right: 122px;
+    height: 560px;
+    margin-top: 175px;
+}
 .page2-content{
     width: 100%;
-    margin-top: 175px;
+    height: 560px;
+}
+.contact-details{
+    height: 50px;
+    margin-bottom: 25px;
+    margin-top: 105px;
+}
+.email-icon{
+    background-image: url("../assets/icons/contact/email_icon.svg");
+    width: 50px;
+    height: 50px;
+    float: left;
+}
+.email-address{
+    float: left;
+    padding-top: 12px;
+    margin-left: 10px;
+    margin-right: 14px;
+}
+.phone-icon{
+    background-image: url("../assets/icons/contact/phone_icon.svg");
+    width: 50px;
+    height: 50px;
+    float: left;
+}
+.phone-number{
+    float: left;
+    padding-top: 12px;
+    margin-left: 10px;
 }
 .embedded-map{
     height: 200px;
@@ -249,6 +277,7 @@ nav a{
 }
 .get-in-touch-section{
     background-color: darkgray;
+    height: 100%;
     padding-left: 30px;
     padding-right: 30px;
     padding-top: 30px;
@@ -256,30 +285,30 @@ nav a{
 form{
 }
 .input-el{
-    margin-bottom: 25px;
-    padding-left: 15px;
+    margin-top: 25px;
+    width: 100%;
+    height: 48px;
+    padding-left: 20px;
+    padding-right: 20px;
     background-color: rgb(73, 71, 71);
     color: white;
     border: none;
     border-radius: 25px;
 }
-input{
-    padding-top: -50px;
-}
-input .input-el{
-    width: 100%;
-    height: 50px;
-}
-select .input-el{
-    width: 100%;
-    height: 50px;
-}
-textarea .input-el{
-    width: 100%;
-    height: 100px;
-}
 ::placeholder{
     color: white;
+}
+textarea.input-el{
+    height: 100px;
+    padding-top: 10px;
+}
+button.input-el{
+    width: 225px;
+    height: 60px;
+    border-radius: 30px;
+    background-color: black;
+    float: right;
+    margin-bottom: 30px;
 }
 
 
@@ -297,18 +326,19 @@ textarea .input-el{
 }
 
 footer{
-    width: 1196px;
+    width: 100%;
     margin: 0 auto;
     margin-top: 60px;
 }
 .trademark{
     margin-top: 12px;
-}
-footer .container-fluid .row .col-4{
-    margin-bottom: 50px;
+    font-weight: bold;
+    margin-bottom: 60px;
+    font-weight: bold;
 }
 footer ul{
     list-style: none;
+    width: 100%;
 }
 .social-icon{
     height: 50px;
