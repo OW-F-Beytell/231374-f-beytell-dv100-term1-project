@@ -3,6 +3,8 @@ html, body{
     padding: 0 !important;
     margin: 0 !important;
     margin: 0 auto;
+    background-color: #191919;
+    color: white;
 }
 .container-fluid{
     padding: 0;
@@ -15,6 +17,7 @@ header.home-page{
     width: 100%;
     height: 900px;
     background-color: lightgray;
+    background-image: url("../assets/albums/thewhitestripes-whitebloodcells.jpg");
     background-position: center;
     background-size: cover;
 }
@@ -28,7 +31,7 @@ nav{
     padding-right: 50px;
 }
 nav a{
-    color: #2b2b2b;
+    color: white;
 }
 .stream-logo{
     height: 50px;
@@ -36,7 +39,7 @@ nav a{
     margin-top: 40px;
     float: left;
     padding-top: 35px;
-    background-image: url("../assets/icons/logo/stream_logo_black.png");
+    background-image: url("../assets/icons/logo/stream_logo_white.png");
     background-position: center;
     background-size: cover;
 }
@@ -47,6 +50,9 @@ nav a{
     padding-top: 40px;
     float: left;
 }
+.home-page nav .nav-control{
+    color: white;
+}
 .nav-control ul{
     list-style: none;
     height: 100%;
@@ -56,13 +62,13 @@ nav a{
     padding-left: 40px;
     float: left;
     height: 100%;
-    color: #2b2b2b;
 }
 .search-bar{
     height: 50px;
     width: 255px;
     float: right;
-    border: solid 2.3px black;
+    color: white;
+    border: solid 2.3px white;
     border-radius: 25px;
     margin-top: 40px;
     padding-top: 10px;
@@ -74,9 +80,10 @@ nav a{
 .search-symbol{
     height: 18px;
     width: 18px;
-    background-image: url("../assets/icons/other/search_icon.svg");
+    background-image: url("../assets/icons/other/white_search_icon.svg");
     background-position: center;
     background-size: cover;
+    color: white;
     float: right;
     margin-top: 4px;
     margin-right: 20px;
@@ -87,6 +94,7 @@ nav a{
     margin-left: 122px;
     margin-right: 122px;
     margin-top: 260px;
+    color: white;
 }
 .header-content h1{
     margin-left: 5px;
@@ -101,8 +109,8 @@ nav a{
     width: 225px;
     margin-right: 40px;
     padding-top: 24.4px;
-    color: white;
-    background-color: black;
+    color: black;
+    background-color: white;
     border-radius: 35px;
     text-align: center;
     float: left;
@@ -112,8 +120,8 @@ nav a{
     width: 225px;
     margin-right: 40px;
     padding-top: 20px;
-    color: black;
-    border: solid 4px black;
+    color: white;
+    border: solid 4px white;
     border-radius: 35px;
     text-align: center;
     float: left;
@@ -121,7 +129,7 @@ nav a{
 .header-fav-button{
     height: 70px;
     width: 70px;
-    background-image: url("../assets/icons/other/heart_icon.svg");
+    background-image: url("../assets/icons/other/white_heart_icon.svg");
     background-position: center;
     background-size: cover;
     border-radius: 50%;
@@ -133,6 +141,7 @@ nav a{
     width: 1196px;
     margin: 0 auto;
     margin-top: -60px;
+    margin-bottom: 80px;
 }
 .featured-video{
     height: 330px;
@@ -144,8 +153,9 @@ nav a{
 .featured-info{
     height: 500px;
     width: 700px;
-    background-color: rgb(235, 233, 233);
+    color: #2b2b2b;
     float: right;
+    background-color: rgba(255, 255, 255, 0.949);
 }
 .featured-info h4{
     margin-left: 120px;
@@ -179,7 +189,7 @@ nav a{
     margin-top: 80px;
 }
 .recent-releases h4{
-    margin-top: 10px;
+    margin-bottom: 10px;
 }
 .popular-albums{
     width: 1198px;
@@ -187,35 +197,48 @@ nav a{
     margin-top: 80px;
 }
 .popular-albums h4{
-    margin-top: 10px;
+    margin-bottom: 10px;
 }
-.album-artwork{
+.album{
     height: 277px;
     width: 277px;
     margin-top: 30px;
-    background-color: lightgray;
+    position: relative;
 }
-.album-actions{
+.album-artwork{
     height: 100%;
     width: 100%;
-    padding-top: 68px;
-    background-color: gray;
+}
+.album-hover-actions{
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    position: absolute;
+}
+.album-hover-actions:hover{
+    opacity: 1;
+}
+.album-overlay{
+    height: 207px;
+    width: 100%;
+    padding-top: 69px;
+    background-color: rgba(25, 25, 25, 0.5);
 }
 .album-play-button{
     height: 70px;
     width: 70px;
-    background-color: rgb(235, 233, 233);
-    background-image: url("../assets/icons/media/white_play_media_icon.svg");
+    background-image: url("../assets/icons/other/white_play_icon.svg");
     background-position: center;
     background-size: cover;
     border-radius: 50%;
+    background-color: rgba(240, 33, 0, 0.5);
+    border: solid 2px white;
     margin: 0 auto;
 }
 .album-info{
     height: 70px;
     width: 100%;
-    margin-top: 68px;
-    background-color: #2b2b2b;
+    background-color: rgba(25, 25, 25, 0.9);
     color: rgb(235, 233, 233);
 }
 .track-info{
@@ -231,6 +254,7 @@ nav a{
     margin-right: 10px;
     float: right;
     border-radius: 50%;
+    background-color: rgba(240, 33, 0, 0.5);
     background-image: url("../assets/icons/other/white_heart_icon.svg");
 }
 
