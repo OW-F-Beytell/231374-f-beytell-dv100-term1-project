@@ -5,6 +5,8 @@ html, body{
     margin: 0 auto;
     background-color: #191919;
     color: white;
+    font-size: 18px;
+    font-family: 'Oswald', sans-serif;
 }
 .container-fluid{
     padding: 0;
@@ -16,13 +18,9 @@ html, body{
 header.home-page{
     width: 100%;
     height: 900px;
-    background-color: lightgray;
     background-image: url("../assets/albums/thewhitestripes-whitebloodcells.jpg");
     background-position: center;
     background-size: cover;
-}
-header.playlist-page{
-
 }
 nav{
     height: 90px;
@@ -30,7 +28,7 @@ nav{
     padding-left: 50px;
     padding-right: 50px;
 }
-nav a{
+nav .nav-control ul a{
     color: white;
 }
 .stream-logo{
@@ -76,6 +74,7 @@ nav a{
 }
 .search-bar p{
     float: left;
+    font-family: 'Noto Sans', sans-serif;
 }
 .search-symbol{
     height: 18px;
@@ -96,9 +95,15 @@ nav a{
     margin-top: 260px;
     color: white;
 }
+.header-content h3{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+}
 .header-content h1{
     margin-left: 5px;
     margin-bottom: 70px;
+    font-size: 72px;
 }
 .header-controls{
     width: 100%;
@@ -114,6 +119,7 @@ nav a{
     border-radius: 35px;
     text-align: center;
     float: left;
+    font-size: 24px;
 }
 .header-shuffle{
     height: 70px;
@@ -125,6 +131,7 @@ nav a{
     border-radius: 35px;
     text-align: center;
     float: left;
+    font-size: 24px;
 }
 .header-fav-button{
     height: 70px;
@@ -160,17 +167,22 @@ nav a{
 .featured-info h4{
     margin-left: 120px;
     margin-top: 25px;
+    font-size: 24px;
+    font-weight: 400;
 }
 .featured-info h2{
     margin-top: 10px;
     margin-left: 120px;
+    font-size: 48px;
+    font-weight: 900;
 }
 .featured-info .featured-info-text{
     height: 275px;
     margin-top: 35px;
     margin-left: 120px;
     margin-right: 60px;
-    font-size: large;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 18px;
 }
 .featured-nav{
     height: 50px;
@@ -223,6 +235,7 @@ nav a{
     width: 100%;
     padding-top: 69px;
     background-color: rgba(25, 25, 25, 0.5);
+    cursor: pointer;
 }
 .album-play-button{
     height: 70px;
@@ -246,6 +259,15 @@ nav a{
     padding-top: 12px;
     padding-left: 15px;
     float: left;
+}
+.track-info h6{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+}
+.track-info h5{
+    font-size: 18px;
+    font-weight: 600;
 }
 .album-info .album-fav-button{
     height: 40px;
@@ -347,7 +369,8 @@ footer{
     margin-top: 12px;
     font-weight: bold;
     margin-bottom: 60px;
-    font-weight: bold;
+    font-size: 18px;
+    font-weight: 600;
 }
 ul{
     list-style: none;
